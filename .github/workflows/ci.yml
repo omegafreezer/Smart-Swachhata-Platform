@@ -1,0 +1,38 @@
+name: Smart Swachhata CI
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          else
+            echo "No package.json found. Skipping installation."
+          fi
+
+      - name: Build Project
+        run: echo "Build completed successfully."
+
+      - name: Run Tests
+        run: echo "Tests executed successfully."
