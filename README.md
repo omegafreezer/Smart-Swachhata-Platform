@@ -1,2 +1,3 @@
-# Smart-Swachhata-Platform
-Smart Swachhata Platform using Agile, DevOps &amp; Cloud
+## SSP-6 User Registration Module
+- Created feature branch for user authentication.
+- Initial implementation of user registration and login module.
