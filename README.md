@@ -1,10 +1,11 @@
+## SSP-6 User Registration Module
+- Created feature branch for user authentication.
+- Initial implementation of user registration and login module.
+
 # 🚀 Smart Swachhata Platform
 
 ## 📌 Overview
 
-Smart Swachhata Platform is a MERN stack web application that allows citizens to report civic issues like garbage collection, drainage, road damage, and streetlight failures. Authorities can monitor complaints through an analytics dashboard and track complaint status.
-
-The project follows Agile Scrum methodology and integrates DevOps practices such as Docker, Kubernetes, and GitHub Actions.
 
 ---
 
