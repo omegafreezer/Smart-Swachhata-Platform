@@ -1,0 +1,29 @@
+@import "./navbar.css";
+@import "./home.css";
+@import "./footer.css";
+@import "./auth.css";
+@import "./dashboard.css";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-green {
+  background: #2e7d32;
+  color: white;
+  border: none;
+}
+
+.btn-green:hover {
+  background: #1b5e20;
+}

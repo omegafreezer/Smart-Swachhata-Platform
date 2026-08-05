@@ -1,0 +1,132 @@
+.auth-page{
+    min-height:100vh;
+    background:#f5f7fa;
+    display:flex;
+    align-items:center;
+}
+
+.auth-container{
+    min-height:85vh;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+}
+
+.auth-left{
+    background:linear-gradient(135deg,#2E7D32,#43A047);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+}
+
+.brand-icon{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.brand h1{
+    font-weight:700;
+}
+
+.brand p{
+    margin-bottom:30px;
+}
+.auth-image{
+    width:100%;
+    max-width:500px;
+    border-radius:18px;
+    box-shadow:0 20px 50px rgba(0,0,0,.25);
+    transition:.4s;
+}
+
+.auth-image:hover{
+    transform:scale(1.03);
+}
+.auth-right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+}
+
+.auth-card{
+    width:100%;
+    max-width:480px;
+}
+
+.auth-card h2{
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.auth-card p{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.auth-switch{
+    margin-top:25px;
+    text-align:center;
+}
+
+.auth-switch a{
+    text-decoration:none;
+    font-weight:600;
+    color:#2E7D32;
+}
+.input-group-text{
+    background:#2E7D32;
+    color:white;
+    border:none;
+}
+
+.form-control{
+    border-left:none;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#2E7D32;
+}
+
+.forgot-link{
+    color:#2E7D32;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.forgot-link:hover{
+    text-decoration:underline;
+}
+
+.btn-success{
+    background:#2E7D32;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-success:hover{
+    background:#256428;
+    transform:translateY(-2px);
+}
+.form-control,
+.input-group-text{
+    border-radius:10px;
+}
+.form-select{
+    height:50px;
+    border-radius:0 10px 10px 0;
+    border-left:none;
+}
+
+.form-select:focus{
+    border-color:#2E7D32;
+    box-shadow:0 0 0 .2rem rgba(46,125,50,.15);
+}
